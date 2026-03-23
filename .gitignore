@@ -1,0 +1,38 @@
+﻿# окальные настройки Qwen CLI (не коммитим временные данные)
+.qwen/tmp/
+.qwen/sessions/
+
+# ависимости Node.js
+node_modules/
+
+# оги и кеш
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# еременные окружения (содержат ключи и пароли!)
+.env
+.env.local
+.env.*.local
+
+# Системные файлы Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# айлы редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Сборка и дист
+dist/
+build/
+.out/
+
+# OS files
+.DS_Store
